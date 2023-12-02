@@ -1,0 +1,83 @@
+html{
+	font-size: 16px;
+	background: #FFFFFF;
+}
+
+
+.limpa-float{
+	clear: both;
+}
+
+#imagem-logo{
+    height: 50px;
+	width: 100px;
+	
+
+}
+
+.menu-lateral{
+    float: right;
+    padding-right: 200px;
+   
+}
+
+#netflix-avatar{
+    width: 32px;
+    height: 32px; 
+}
+
+#menu-bar{
+    display: flex;
+    align-items: center;
+    padding: 10px, rgb(0,0,0);
+    background-color: #000;
+	clear: both;
+   
+	
+}
+
+#menu-bar ul{
+    background: rgb(0, 0, 0);
+    list-style-type: none;
+    margin: 0;
+    padding: 5;
+    display: flex;
+    padding-right: 720px;
+   
+}
+
+#menu-bar ul li{
+	display: inline;
+    margin: 0 10px;
+  
+}
+
+
+#menu-bar a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+   
+    
+
+}
+
+#menu-bar a:hover{
+    color: #e50914;
+}
+
+.anuncio{
+    position: relative;
+    width: 100px;
+    height: 80px;
+    flex-shrink: 0; 
+}
+
+#capa-serie{
+    width: 1350px;
+    height: 830px;
+}
+
+
+
+
